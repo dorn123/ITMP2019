@@ -5,6 +5,13 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://jabont.com/jayss/jayss.css">
 	<style>
+	body{
+		background-image: url("sky2.jpg");
+		
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+		
+	}
 	.fa-star{
 		opacity: .2;
 		cursor: pointer;
@@ -22,7 +29,7 @@
 					<div class="t-right">
 						<i class="fas fa-star cl-amber" id="u_fav" onclick="fav()"></i>
 					</div>
-					<img src="https://picsum.photos/id/70/200/200" id = "u_profile">
+					<img src="https://picsum.photos/id/30/200/200" id = "u_profile">
 					<!-- username -->
 					<h1 class="cl-purple-a4">@<span id="u_userName">_______</span></h1>
 					<!-- city -->
@@ -67,7 +74,7 @@
 		}
 		function renData(){
 			
-			u_profile.src = `https://picsum.photos/id/${user[nowIndex].id}70/200/200`;
+			u_profile.src = `https://picsum.photos/id/${user[nowIndex].id}30/200/200`;
 			// เขียนต่อ ให้ข้อมูลคนแรก ไปแสดงผลบนหน้าเว็บ
 			
 			u_userName.innerText = user[nowIndex].username;
