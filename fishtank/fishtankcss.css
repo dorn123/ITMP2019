@@ -1,0 +1,76 @@
+
+.toppage{
+    height: 500px;
+    width: 100%;
+    background: #ccffff;
+
+}
+.centerpage{
+    height: 500px;
+    width: 100%;
+    background: #3333cc;
+        position: relative;
+        overflow: hidden;
+}
+.firstfish{
+        height: 500px;
+    width: 100%;
+    background: #3399ff;
+    position: relative;
+        overflow: hidden;
+}
+.fish_1{
+    position: absolute;
+
+}
+.fish_11{
+    top: 100px;
+    left: 40%;
+}
+.fish_12{
+    top: 300px;
+    left: 80%;
+}
+.fish_13{
+    top: 400px;
+    left: 60%;
+}
+.fish_14{
+    top: 600px;
+    left: 70%;
+}
+.fish_15{
+    top: 800px;
+    left: 40%;
+}
+.secondfish{
+        height: 500px;
+    width: 100%;
+    background: #000099;
+    position: relative;
+        overflow: hidden;
+}
+.fish_2{
+    position: absolute;
+        width: 200px;
+}
+.fish_21{
+    top: 900px;
+    right: 40%;
+}
+.fish_22{
+    top: 1100px;
+    right: 80%;
+}
+.fish_23{
+    top: 1300px;
+    right: 60%;
+}
+.fish_24{
+    top: 1500px;
+    right: 70%;
+}
+.fish_25{
+    top: 800px;
+    right: 40%;
+}

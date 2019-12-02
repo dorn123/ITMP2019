@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="fishtankcss.css">
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <div class = "toppage">
+
+    </div>
+    <div class = "firstfish">
+        <img src="fish_1.png" class="fish_1 fish_11" id = "fish_11">
+        <img src="fish_1.png" class="fish_1 fish_12" id = "fish_12">
+        <img src="fish_1.png" class="fish_1 fish_13" id = "fish_13">
+        <img src="fish_1.png" class="fish_1 fish_14" id = "fish_14">
+        <img src="fish_1.png" class="fish_1 fish_15" id = "fish_15">
+    </div>
+    <div class = "secondfish">
+        <img src="fish_2.png" class="fish_2 fish_21" id = "fish_21">
+        <img src="fish_2.png" class="fish_2 fish_22" id = "fish_22">
+        <img src="fish_2.png" class="fish_2 fish_23" id = "fish_23">
+        <img src="fish_2.png" class="fish_2 fish_24" id = "fish_24">
+        <img src="fish_2.png" class="fish_2 fish_25" id = "fish_25">
+    </div>
+
+    <script type="text/javascript">
+        function test(){
+            let y1 = window.pageYOffset;
+            fish_11.style.marginTop = `-${y1}px`;
+            fish_12.style.marginTop = `-${y1*2}px`;
+            fish_13.style.marginTop = `-${y1*3}px`;
+            fish_14.style.marginTop = `-${y1*4}px`;
+            fish_15.style.marginTop = `-${y1*5}px`;
+
+            let y2 = window.pageYOffset;
+            fish_21.style.marginTop = `-${y2}px`;
+            fish_22.style.marginTop = `-${y2*2}px`;
+            fish_23.style.marginTop = `-${y2*3}px`;
+            fish_24.style.marginTop = `-${y2*4}px`;
+            fish_25.style.marginTop = `-${y2*5}px`;
+        }
+        window.addEventListener("scroll", test);
+    </script>
+</body>
+</html>
