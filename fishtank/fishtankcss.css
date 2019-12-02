@@ -22,6 +22,7 @@
 .fish_1{
     position: absolute;
         width: 200px;
+        transform: scaleX(-1);
 }
 .fish_11{
     top: 100px;
